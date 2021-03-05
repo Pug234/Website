@@ -1,0 +1,17 @@
+[package]
+name = "hello-rocket"
+version = "0.1.0"
+authors = ["Pug234 <corbin.mckee.ryan@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono="0.4"
+rocket = "0.4.5"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+rocket_contrib = {version="0.4.5", features=["json", "templates", "handlebars_templates"]}
+rust-crypto = "^0.2"
+rand = "0.7.3"

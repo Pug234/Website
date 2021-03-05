@@ -1,0 +1,27 @@
+h1 { text-align: center; height: 100; padding-top: 100px;}
+
+
+
+a.button{
+ color: black;
+ display:block;
+ text-align:center;
+ text-decoration:none;
+ padding:10px 10px 10px 10px;
+ width: 400;
+ margin: 70 auto;
+ transition: all .5s ease;
+
+}
+
+a.button:active,a.button:focus,a.button:hover{
+ transition: all .5s ease;
+ transform: scale(2.5) perspective(1px);
+
+
+}
+
+
+body {
+  background-image: linear-gradient(#3f5fff, #36f470);
+}
